@@ -5,16 +5,20 @@ body {
 
 }
 
+/* navigation flexbox */
 .nav {
     display: flex;
     justify-content: end;
     font-size: 14px;
 }
 
+/* trying to add the Google Apps icon */
+
 #apps {
     background-image: ssl.gstatic.com/gb/images/i2_2ec824b0.png;
 }
 
+/* navigation style */
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,6 +53,8 @@ img {
     padding-top: 150px;
 }
 
+/* form styling */
+
 input {
     border-radius: 15px;
     border: 1px solid lightgray;
@@ -68,6 +74,7 @@ button {
 button:hover {
     box-shadow: 0 1px 1px 0 darkgray;
 }
+/* footer styling */
 
 .footer {
     display: flex;
