@@ -1,5 +1,4 @@
 # The Odin Project: Google Homepage project in HTML/CSS
-Odin Project HTML/CSS project
 
 Live site here: [The Odin Project: Google Homepage](https://ikass.github.io/google-homepage/)
 
