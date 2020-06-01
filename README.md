@@ -1,7 +1,7 @@
 # google-homepage
 Odin Project HTML/CSS project
 
-Live site here: [The Oding Project: Google Homepage](https://ikass.github.io/google-homepage/)
+Live site here: [The Odin Project: Google Homepage](https://ikass.github.io/google-homepage/)
 
 After going through the Web Development 101 track, I've learned the basics of GIT, HTML and CSS, along with web development tools on Firefox. I started way back when the HTML and CSS introductions were done via the codecademy free lessons, but finished with FreeCodeCamp.org lessons.
 
