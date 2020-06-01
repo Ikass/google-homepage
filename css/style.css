@@ -8,13 +8,13 @@ body {
 .nav {
     display: flex;
     justify-content: end;
+    font-size: 14px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 12px;
   }
 
   li {
@@ -64,4 +64,5 @@ button:hover {
     display: flex;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    font-size: 14px;
 }
