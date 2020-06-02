@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>The Odin Project: Google Homepage</title>
 </head>
 
 <body>
 
+<div class="content">
+<header>
     <!-- navigation-->
-    <div id="nav" class="nav">
-        <ul>
-            <li><a href="#Gmail">Gmail</a></li>
-            <li><a href="#Images">Images</a></li>
-            <li><a href="#Google Apps" title="Google Apps" i="apps"></a></li>
-        </ul>
+    <div class="nav">
+            <div><a href="#Gmail">Gmail</a></div>
+            <div><a href="#Images">Images</a></div>
+            <div class="apps"><a href="#Google Apps" title="Google Apps" class="apps"><img class="apps" src="assets/images/apps.png" alt="Google apps"></a></div>
     </div>
+</header>
 
-<!-- main content and search box-->
-<div class="container">
-    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+<!-- search box-->
+<main>
+
+<div class="search">
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
     <form action="#" method="POST">
-         <input type="text" placeholder="Search" id="searchbox">
+         <input type="search" placeholder="Search Google" id="searchbox">
+         <br>
          <button type="submit">Google Search</button>
          <button type="submit">I'm Feeling Lucky!</button>
     </form>
 </div>
 
+</main>
+</div>
+
+
 <!-- footer-->
-<footer>
-    <div id="footer" class="footer">
-        <ul>
-            <li><a href="#Advertising">Advertising</a></li>
-            <li><a href="#Business">Business</a></li>
-            <li><a href="#About">About</a></li>
-        </ul>
-    </div>
+<footer class="footer">
+            <div><a href="#Advertising">Advertising</a></div>
+            <div><a href="#Business">Business</a></div>
+            <div><a href="#About">About</a></div>
 </footer>
 
 </body>
